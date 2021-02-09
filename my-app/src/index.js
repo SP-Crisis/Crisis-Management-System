@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './sb-admin-2.css';
+import './dashboard.css';
 
 class App extends React.Component{
     render(){
@@ -24,17 +24,17 @@ class App extends React.Component{
                         <li class="nav-item">
                              <a class="nav-link" href="charts.html">
                                 <i class="fas fa-fw fa-chart-area"></i>
-                                <span>Home</span></a>
+                                <span>CSU Dashboard</span></a>
                         </li>
                          <li class="nav-item">
                              <a class="nav-link" href="charts.html">
                                 <i class="fas fa-fw fa-chart-area"></i>
-                                <span>Explore</span></a>
+                                <span>Policies</span></a>
                         </li>
                         <li class="nav-item">
                              <a class="nav-link" href="charts.html">
                                 <i class="fas fa-fw fa-chart-area"></i>
-                                <span>Notifications</span></a>
+                                <span>Operations</span></a>
                         </li>
                          <li class="nav-item">
                              <a class="nav-link" href="charts.html">
@@ -44,13 +44,13 @@ class App extends React.Component{
                         <li class="nav-item">
                              <a class="nav-link" href="charts.html">
                                 <i class="fas fa-fw fa-chart-area"></i>
+                                <span>Technologies</span></a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="charts.html">
+                                <i class="fas fa-fw fa-chart-area"></i>
                                 <span>Profile</span></a>
                         </li>
-
-                         <hr class="sidebar-divider d-none d-md-block"></hr>
-                         <div class="text-center d-none d-md-inline">
-                             <button class="rounded-circle border-0" id="sidebarToggle"></button>
-                        </div>
 
                     </ul>
 
